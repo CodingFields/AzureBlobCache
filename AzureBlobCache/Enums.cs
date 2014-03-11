@@ -12,12 +12,4 @@
         Staging,
         Production
     }
-
-    public static class EnumExtensions
-    {
-        public static string EnumToPage(this Caches cache)
-        {
-            return cache.ToString();
-        }
-    }
 }
